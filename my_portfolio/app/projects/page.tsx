@@ -30,17 +30,17 @@ const Projects = () => {
         {[
           {
             title: "STATIC RESUME",
-            link: "",
+            link: "https://interactiveresumehackathonft.vercel.app/",
             img: "/images/projimg1.jpg",
           },
           {
             title: "DYNAMIC RESUME",
-            link: "",
+            link: "https://hackathon-interactive-resume-generator-by-fatimaf.vercel.app/",
             img: "/images/projimg2.jpg",
           },
           {
             title: "EDITABLE RESUME",
-            link: "",
+            link: "https://hackathon-interactive-resume-generate-edit-share-by-fatimaf.vercel.app/",
             img: "/images/projimg3.jpg",
           },
           {
