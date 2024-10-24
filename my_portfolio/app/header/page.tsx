@@ -14,19 +14,31 @@ function Header() {
             <div className="flex items-center justify-between py-1 md:py-4 md:block">
               <Link
                 href="/"
-                className="text-2xl md:text-3xl pl-1 font-Poppins font-semibold"
+                className="text-xl md:text-2xl pl-1 font-Poppins font-semibold"
               >
                 <span
-                  className="font-Merienda font-extrabold mt-3 mb-0 text-[#b62bc3]
+                  className="font-Merienda font-extrabold mt-3 mb-0 text-[#86198f]
                 text-stroke text-stroke-[#86198f]"
                 >
                   F
                 </span>
                 <span
-                  className=" font-Merienda font-extrabold mt-5 mb-0 text-[#b62bc3]
+                  className=" font-Merienda font-extrabold mt-5 mb-0 text-[#ff23cf]
+                text-stroke-thin text-stroke-[#86198f]"
+                >
+                  atima
+                </span>
+                <span
+                  className=" font-Merienda font-extrabold mt-5 mb-0 text-[#86198f]
                 text-stroke-thin text-stroke-[#86198f]"
                 >
                   F
+                </span>
+                <span
+                  className=" font-Merienda font-extrabold mt-5 mb-0 text-[#ff23cf]
+                text-stroke-thin text-stroke-[#86198f]"
+                >
+                  aisal
                 </span>
               </Link>
 

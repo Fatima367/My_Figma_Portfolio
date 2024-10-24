@@ -83,7 +83,7 @@ export default function Footer() {
 <div className="flex flex-col items-center justify-center text-center">
   <div className="mb-4">
     <p className="font-extrabold text-4xl">FF</p>
-    <p className="text-sm font-Poppins">&copy; 2024 | All rights reserved.</p>
+    <p className="text-sm font-Poppins">&copy;Fatima Faisal's portfolio 2024 | All rights reserved.</p>
   </div>
 </div>
 
