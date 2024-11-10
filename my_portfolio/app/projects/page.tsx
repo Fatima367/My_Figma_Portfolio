@@ -29,6 +29,11 @@ const Projects = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mx-4 md:mx-10">
         {[
           {
+            title: "RESUME BUILDER",
+            link: "https://fatimafs-resume-builder.vercel.app/",
+            img: "/images/projimg20.jpg",
+          },
+          {
             title: "STATIC RESUME",
             link: "https://interactiveresumehackathonft.vercel.app/",
             img: "/images/projimg1.jpg",
@@ -45,7 +50,7 @@ const Projects = () => {
           },
           {
             title: "SHARABLE RESUME",
-            link: "",
+            link: "https://interactive-download-share-resume-fatimafs.vercel.app/",
             img: "/images/projimg4.jpg",
           },
         ].map((project, index) => (
@@ -91,58 +96,59 @@ const Projects = () => {
         {[
           {
             title: "MOVIE SEARCH APP",
-            link: "",
+            link: "https://movie-search-app-by-fatimafs.vercel.app/",
             description: "",
             img: "/images/projimg5.jpg",
           },
           {
+            title: "PASSWORD GENERATOR APP",
+            link: "https://password-generator-app-by-fatimafs.vercel.app/",
+            description: "",
+            img: "/images/projimg13.jpg",
+          },
+          {
             title: "COUNTDOWN TIMER",
-            link: "",
+            link: "https://countdown-timer-by-fatimafs-theta.vercel.app/",
             description: "",
             img: "/images/projimg6.jpg",
+          },
+          {
+            title: "BIRTHDAY WISH APP",
+            link: "https://birthday-wish-app-by-fatimafs-nextjs-project.vercel.app/",
+            description: "",
+            img: "/images/projimg8.jpg",
+          },
+          {
+            title: "NUMBER GUESSING GAME",
+            link: "https://number-guessing-game-by-fatimafs.vercel.app/",
+            description: "",
+            img: "/images/projimg9.jpg",
+          },
+          {
+            title: "DIGITAL CLOCK APP",
+            link: "https://digital-clock-app-by-fatimfs.vercel.app/",
+            description: "",
+            img: "/images/projimg10.jpg",
+          },
+          {
+            title: "RANDOM JOKE GENERATOR",
+            link: "https://random-joke-generator-app-by-fatimafs.vercel.app/",
+            description: "",
+            img: "/images/projimg11.jpg",
+          },
+          {
+            title: "COLOR PICKER APP",
+            link: "https://color-picker-app-by-fatimafs.vercel.app/",
+            description: "",
+            img: "/images/projimg12.jpg",
           },
           {
             title: "WEATHER APP",
             link: "",
             description: "",
             img: "/images/projimg7.jpg",
-          },
-          {
-            title: "BIRTHDAY WISH APP",
-            link: "",
-            description: "",
-            img: "/images/projimg8.jpg",
-          },
-          {
-            title: "NUMBER GUESSING GAME",
-            link: "",
-            description: "",
-            img: "/images/projimg9.jpg",
-          },
-          {
-            title: "DIGITAL CLOCK APP",
-            link: "",
-            description: "",
-            img: "/images/projimg10.jpg",
-          },
-          {
-            title: "RANDOM JOKE GENERATOR",
-            link: "",
-            description: "",
-            img: "/images/projimg11.jpg",
-          },
-          {
-            title: "COLOR PICKER APP",
-            link: "",
-            description: "",
-            img: "/images/projimg12.jpg",
-          },
-          {
-            title: "PASSWORD GENERATOR APP",
-            link: "",
-            description: "",
-            img: "/images/projimg13.jpg",
-          },
+          }
+
         ].map((project, index) => (
           <div className="flex flex-wrap justify-center items-center">
             <div
@@ -258,7 +264,7 @@ const Projects = () => {
         {[
           {
             title: "ONLINE CALCULATOR",
-            link: "",
+            link: "https://online-calculator-js-html-css-by-fatimafs.vercel.app/",
             description: "",
             img: "/images/projimg19.jpg",
           },
