@@ -8,7 +8,7 @@ function Header() {
   const [navbar, setNavbar] = useState(false);
   return (
     <div>
-      <nav className="w-screen z-10 p-2 pb-0 bg-[#610f4f]">
+      <nav className="w-screen z-10 p-2 md:p-0 md:px-2 pb-0 bg-[#690b55] h-14">
         <div className="justify-between px-2 lg:max-w-8xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-1 md:py-4 md:block">
@@ -45,14 +45,14 @@ function Header() {
               {/* FOR MOBILE */}
               <div className="md:hidden">
                 <button
-                  className=" absolute cursor-pointer top-[1rem] 
+                  className=" absolute cursor-pointer top-2 
                   right-[1rem] w-[2rem] h-[1rem]"
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (
-                    <XMarkIcon className="text-xl " />
+                    <XMarkIcon className="text-xl text-white hover:text-[#edbce2]" />
                   ) : (
-                    <Bars3Icon className="text-xl " />
+                    <Bars3Icon className="text-xl text-white hover:text-[#edbce2]" />
                   )}
                 </button>
               </div>
@@ -64,7 +64,10 @@ function Header() {
                 navbar ? "p-12 md:p-0 block" : "hidden"
               }`}
             >
-              <ul className="h-screen md:h-auto items-center justify-center md:flex mx-auto text-white">
+              <ul
+                className="h-screen md:h-auto items-center justify-center md:flex mx-auto text-white
+              mt-2"
+              >
                 <li
                   className="pb-5 text-lg md:text-sm font-bold font-Merienda
                  hover:font-extrabold py-2 md:px-4 text-center hover:text-[#edbce2] duration-150"
