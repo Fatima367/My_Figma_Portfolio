@@ -26,6 +26,81 @@ const Skills = () => {
           hover:scale-105 transition-all duration-200 p-5 bg-gradient-to-br 
         from-[#b3d4f5] via-[#ffff] to-[#b3d4f5] ring-1 ring-[#c1c2c2] shadow-black"
           >
+            <h2 className="text-2xl font-semibold font-Merienda -mb-2">
+              NextJs
+            </h2>
+            <p className="text-md mt-2 font-Merienda text-center ">
+              Building fast and scalable web applictaions.
+            </p>
+          </div>
+
+          <div
+            className="w-11/12 h-36 shadow-md rounded-xl transform hover:shadow-lg hover:shadow-black
+          hover:scale-105 transition-all duration-200 p-5 bg-gradient-to-br 
+        from-[#b3d4f5] via-[#ffff] to-[#b3d4f5] ring-1 ring-[#c1c2c2] shadow-black"
+          >
+            <h2 className="text-2xl font-semibold font-Merienda -mb-2">
+              Front-End <br />
+              Development
+            </h2>
+            <p className="text-md mt-2 font-Merienda text-center ">
+              Developing responsive, user-centric interfaces.
+            </p>
+          </div>
+
+          <div
+            className="w-11/12 h-36 shadow-md rounded-xl transform hover:shadow-lg hover:shadow-black
+          hover:scale-105 transition-all duration-200 p-5 bg-gradient-to-br 
+        from-[#b3d4f5] via-[#ffff] to-[#b3d4f5] ring-1 ring-[#c1c2c2] shadow-black"
+          >
+            <h2 className="text-2xl font-semibold font-Merienda">
+              UI/UX Design
+            </h2>
+            <p className="text-md mt-3 font-Merienda">
+              Crafting intuitive, aesthetically pleasing interfaces.
+            </p>
+          </div>
+
+          <div
+            className="w-11/12 h-36 shadow-md rounded-xl transform hover:shadow-lg hover:shadow-black
+          hover:scale-105 transition-all duration-200 p-5 bg-gradient-to-br 
+        from-[#b3d4f5] via-[#ffff] to-[#b3d4f5] ring-1 ring-[#c1c2c2] shadow-black"
+          >
+            <h2 className="text-2xl font-semibold font-Merienda">
+              Tailwind CSS
+            </h2>
+            <p className="text-md mt-3 font-Merienda">
+              Styling with utility-first CSS for rapid UI development.
+            </p>
+          </div>
+
+          <div
+            className="w-11/12 h-36 shadow-md rounded-xl transform hover:shadow-lg hover:shadow-black
+          hover:scale-105 transition-all duration-200 p-5 bg-gradient-to-br 
+        from-[#b3d4f5] via-[#ffff] to-[#b3d4f5] ring-1 ring-[#c1c2c2] shadow-black"
+          >
+            <h2 className="text-2xl font-semibold font-Merienda">Sanity CMS</h2>
+            <p className="text-md mt-3 font-Merienda">
+              Managing content with a flexible, real-time headless CMS.
+            </p>
+          </div>
+
+          <div
+            className="w-11/12 h-36 shadow-md rounded-xl transform hover:shadow-lg hover:shadow-black
+          hover:scale-105 transition-all duration-200 p-5 bg-gradient-to-br 
+        from-[#b3d4f5] via-[#ffff] to-[#b3d4f5] ring-1 ring-[#c1c2c2] shadow-black"
+          >
+            <h2 className="text-2xl font-semibold font-Merienda">React.js</h2>
+            <p className="text-md mt-3 font-Merienda">
+              Building reusable components for interactive UIs.
+            </p>
+          </div>
+
+          <div
+            className="w-11/12 h-36 shadow-md rounded-xl transform hover:shadow-lg hover:shadow-black
+          hover:scale-105 transition-all duration-200 p-5 bg-gradient-to-br 
+        from-[#b3d4f5] via-[#ffff] to-[#b3d4f5] ring-1 ring-[#c1c2c2] shadow-black"
+          >
             <h2 className="text-2xl font-semibold font-Merienda">HTML</h2>
             <p className="text-md mt-3 font-Merienda">
               Building well structured web content.
@@ -62,53 +137,6 @@ const Skills = () => {
             <h2 className="text-2xl font-semibold font-Merienda">TypeScript</h2>
             <p className="text-md mt-3 font-Merienda">
               Writing scalable, error-free code with strong typing.
-            </p>
-          </div>
-
-          <div
-            className="w-11/12 h-36 shadow-md rounded-xl transform hover:shadow-lg hover:shadow-black
-          hover:scale-105 transition-all duration-200 p-5 bg-gradient-to-br 
-        from-[#b3d4f5] via-[#ffff] to-[#b3d4f5] ring-1 ring-[#c1c2c2] shadow-black"
-          >
-            <h2 className="text-2xl font-semibold font-Merienda">React.js</h2>
-            <p className="text-md mt-3 font-Merienda">
-              Building reusable components for interactive UIs.
-            </p>
-          </div>
-
-          <div
-            className="w-11/12 h-36 shadow-md rounded-xl transform hover:shadow-lg hover:shadow-black
-          hover:scale-105 transition-all duration-200 p-5 bg-gradient-to-br 
-        from-[#b3d4f5] via-[#ffff] to-[#b3d4f5] ring-1 ring-[#c1c2c2] shadow-black"
-          >
-            <h2 className="text-2xl font-semibold font-Merienda">Node.js</h2>
-            <p className="text-md mt-3 font-Merienda">
-              Creating efficient server-side applications.
-            </p>
-          </div>
-
-          <div
-            className="w-11/12 h-36 shadow-md rounded-xl transform hover:shadow-lg hover:shadow-black
-          hover:scale-105 transition-all duration-200 p-5 bg-gradient-to-br 
-        from-[#b3d4f5] via-[#ffff] to-[#b3d4f5] ring-1 ring-[#c1c2c2] shadow-black"
-          >
-            <h2 className="text-2xl font-semibold font-Merienda -mb-2">
-              Front-End <br />
-              Development
-            </h2>
-            <p className="text-md mt-2 font-Merienda text-center ">
-              Developing responsive, user-centric interfaces.
-            </p>
-          </div>
-
-          <div
-            className="w-11/12 h-36 shadow-md rounded-xl transform hover:shadow-lg hover:shadow-black
-          hover:scale-105 transition-all duration-200 p-5 bg-gradient-to-br 
-        from-[#b3d4f5] via-[#ffff] to-[#b3d4f5] ring-1 ring-[#c1c2c2] shadow-black"
-          >
-            <h2 className="text-2xl font-semibold font-Merienda">UI Design</h2>
-            <p className="text-md mt-3 font-Merienda">
-              Crafting intuitive, aesthetically pleasing interfaces.
             </p>
           </div>
         </div>

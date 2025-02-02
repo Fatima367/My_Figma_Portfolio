@@ -94,7 +94,7 @@ const Contact = () => {
               <button
                 className="p-2 rounded-xl w-11/12 hover:translate-y-1 shadow-md -mt-2 mb-2
             font-Merienda text-lg font-bold bg-gradient-to-br from-[#b3d4f5] via-[#ffff] to-[#b3d4f5] 
-                 shadow-black ring-1 ring-[#949194]"
+                 shadow-black ring-1 ring-[#949194] duration-300"
               >
                 Submit
               </button>

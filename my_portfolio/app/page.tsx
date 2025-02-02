@@ -22,7 +22,7 @@ export default function Home() {
           <div
             className="rounded-full shadow-md w-[250px] h-[250px] md:w-[350px]
              md:h-[330px] bg-cover bg-center hover:shadow-lg hover:shadow-black hover:scale-105 
-             transition-all duration-200 bg-white ring-1 ring-[#b3d4f5] shadow-black"
+             transition-all duration-300 bg-white ring-1 ring-[#b3d4f5] shadow-black"
           >
             <Image
               src={"/images/myimage.jpg"}
@@ -37,7 +37,7 @@ export default function Home() {
           <div
             className="rounded-full shadow-md w-full md:w-[700px]
            h-auto md:h-[350px] bg-cover bg-center hover:shadow-lg p-4
-           hover:shadow-black hover:scale-105 transition-all duration-200
+           hover:shadow-black hover:scale-105 transition-all duration-300
            bg-gradient-to-bl from-[#EBFDFF] via-[#FDE8FF] to-[#EBFDFF]
            ring-1 ring-[#ff23cf] shadow-black"
           >
@@ -80,7 +80,7 @@ export default function Home() {
                     className="px-6 py-3 rounded-full hover:translate-y-1 w-full md:w-auto 
                     hover:font-bold ring-1 ring-[#3A042C] font-Merienda bg-gradient-to-br
                   from-[#b3d4f5] via-[#ffff] to-[#b3d4f5] shadow-md shadow-black 
-                    font-semibold"
+                    font-semibold duration-300"
                   >
                     Hire Me
                   </button>
@@ -89,12 +89,12 @@ export default function Home() {
                 <button
                   className="px-1 py-1 rounded-full hover:translate-y-1 shadow-md 
                   bg-gradient-to-br from-[#b3d4f5] via-[#ffff] to-[#b3d4f5] 
-                 shadow-black ring-1 ring-[#3A042C]"
+                 shadow-black ring-1 ring-[#3A042C] duration-300"
                 >
                   <Link href={"/projects"}>
                     <span
                       className="flex items-center rounded-full px-5 py-2 hover:font-bold 
-                    bg-black font-medium text-white"
+                    bg-[#3e0b33] font-medium text-white"
                     >
                       Projects <ArrowUpRight className="w-4 h-4" />
                     </span>

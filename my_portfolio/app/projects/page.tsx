@@ -20,6 +20,62 @@ const Projects = () => {
         </h1>
       </div>
       <h2
+        id="websites"
+        className="text-xl md:text-3xl font-Merienda font-extrabold ml-14 mb-4
+       text-white"
+      >
+        WEBSITES:
+      </h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mx-4 md:mx-10">
+        {[
+          {
+            title: "DYNAMIC BLOG WEBSITE",
+            link: "https://milestone-3-blog-web-ft-ff.vercel.app/",
+            img: "/images/projimg21.png",
+          },
+          {
+            title: "MORENT",
+            link: "https://marketplace-morent-ft-ff.vercel.app/",
+            img: "/images/projimg23.png",
+          },
+          {
+            title: "RESUME BUILDER",
+            link: "https://fatimafs-resume-builder.vercel.app/",
+            img: "/images/projimg20.jpg",
+          },
+        ].map((project, index) => (
+          <div className="flex flex-wrap justify-center items-center">
+            <div
+              key={index}
+              className="h-30 w-72 sm:w-72 hover:shadow-lg hover:shadow-black
+      shadow-md shadow-slate-950 rounded-xl transform hover:scale-105
+      transition-all duration-200 bg-gradient-to-br
+      from-[#b3d4f5] via-[#ffff] to-[#b3d4f5] ring-1 ring-[#c1c2c2]"
+            >
+              <div className="flex flex-row gap-x-4 items-center p-4">
+                <Image
+                  src={project.img}
+                  alt="Project Thumbnail"
+                  height={60}
+                  width={60}
+                  className="rounded-3xl border h-16 w-16 shadow-md shadow-black flex-shrink-0"
+                />
+
+                <Link href={project.link} target="_blank" className="w-full">
+                  <p
+                    className="text-lg font-Merienda font-semibold hover:font-bold 
+          cursor-pointer text-center sm:text-left"
+                  >
+                    {project.title}
+                  </p>
+                </Link>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+      <br /> <br />
+      <h2
         id="hackathon"
         className="text-xl md:text-3xl font-Merienda font-extrabold ml-14 mb-4
        text-white"
@@ -28,11 +84,6 @@ const Projects = () => {
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mx-4 md:mx-10">
         {[
-          {
-            title: "RESUME BUILDER",
-            link: "https://fatimafs-resume-builder.vercel.app/",
-            img: "/images/projimg20.jpg",
-          },
           {
             title: "STATIC RESUME",
             link: "https://interactiveresumehackathonft.vercel.app/",
@@ -147,8 +198,7 @@ const Projects = () => {
             link: "",
             description: "",
             img: "/images/projimg7.jpg",
-          }
-
+          },
         ].map((project, index) => (
           <div className="flex flex-wrap justify-center items-center">
             <div
