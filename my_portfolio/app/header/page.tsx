@@ -1,8 +1,7 @@
 "use client";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
 import Link from "next/link";
-import { useState } from "react";
-import React from "react";
+import React, { useState } from "react";
 
 function Header() {
   const [navbar, setNavbar] = useState(false);

@@ -1,5 +1,4 @@
 "use client";
-import Footer from "@/app/footer/page";
 import Link from "next/link";
 import Image from "next/image";
 import Skills from "./skills/page";
